@@ -27,10 +27,37 @@ console.log("Hallo, " + firstName + " " + familyName + "!");
 */
 
 // JS ist eine untypisierte Sprache! | untyped
+/*
 let test;  // Deklaration
-test = "hi";  // String
-test = 2; // Number
-test = true; // Boolean
+test = "hi";  // string 
+test = 2; // number
+test = true; // boolean
 
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
+*/
+
+/***** Variablen 02 *******/
+
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung | Assignment
+let date = new Date();
+let now = date.getFullYear();
+ageJohn = 25;
+ageMark = 30;
+
+// Operation
+birthYearJohn = now - ageJohn;
+birthYearMark = now - ageMark;
+
+//Ausgabe
+console.log("Aktuelles Jahr: " + now);
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
+console.log("---------------------");
+
+/***** Variablen 03 *******/
